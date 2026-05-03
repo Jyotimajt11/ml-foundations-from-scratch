@@ -1,93 +1,68 @@
-# Linear Regression From Scratch
+# ML Foundations From Scratch
 
 ## 📌 Overview
 
-This project implements Linear Regression from scratch using Python and NumPy without relying on machine learning libraries.
-
-The goal is to understand how models learn using Gradient Descent.
-
----
-
-## 🎯 Problem Statement
-
-Predict house price based on area.
+This repository contains Machine Learning models implemented from scratch and using Scikit-learn.  
+The goal is to understand how ML algorithms work internally and how they are applied on real datasets.
 
 ---
 
-## 🧠 Concepts Covered
+## 📊 Model Covered: Linear Regression
 
-- Linear Regression
+This project includes multiple stages of Linear Regression learning:
+
+### 1. Linear Regression From Scratch
+Implemented Linear Regression manually using Python and NumPy.
+
+Concepts covered:
+- Weight and bias
 - Gradient Descent
-- Mean Squared Error (MSE)
+- Mean Squared Error
 - Feature Scaling
-- Model Training & Convergence
+- Loss Curve
+
+### 2. Linear Regression using Scikit-learn
+- Implemented the same model using Scikit-learn to understand how ML libraries simplify model training.
+- Used the California Housing dataset to understand how real-world data behaves.
+
+### 4. Multiple Linear Regression
+Improved the model by using all available features instead of only one feature.
 
 ---
 
-## 📊 Dataset
+## 🧠 Concepts Learned
 
-A simple synthetic dataset with two columns:
-
-| Feature | Description    |
-| ------- | -------------- |
-| area    | Area of house  |
-| price   | Price of house |
-
----
-
-## ⚙️ Model Formula
-
-y = wx + b
-
-Where:
-
-- w → weight (slope)
-- b → bias (intercept)
+- Supervised Learning
+- Simple Linear Regression
+- Multiple Linear Regression
+- Gradient Descent
+- Mean Squared Error
+- R² Score
+- Train-Test Split
+- Feature Importance
+- Model Evaluation
+- Real-world noisy data behavior
 
 ---
 
-## 🚀 How the Model Learns
+## 📁 Project Structure
 
-1. Start with random weight & bias
-2. Predict output
-3. Calculate error (loss)
-4. Update weight & bias using gradient descent
-5. Repeat until loss is minimized
-
----
-
-## 📉 Results
-
-- Loss decreases rapidly and converges to near zero
-- Model perfectly fits data due to clean linear dataset
-- Strong linear relationship observed between area and price
-
----
-
-## 📷 Outputs
-
-### Regression Line
-
-![Regression](Outputs/regression_line.png)
-
-### Loss Curve
-
-![Loss](Outputs/loss_curve.png)
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-
----
-
-## ▶️ How to Run
-
-```bash
-pip install -r requirements.txt
-py src/linear_regression_day1.py
-```
+```text
+linear-regression-from-scratch/
+│
+├── data/
+│   └── housing_sample.csv
+│
+├── src/
+│   ├── linear_regression_day1.py
+│   ├── real_dataset_linear_regression.py
+│   └── multiple_linear_regression.py
+│
+├── outputs/
+│   ├── regression_line.png
+│   ├── loss_curve.png
+│   ├── real_dataset_plot.png
+│   └── multiple_regression_plot.png
+│
+├── README.md
+└── requirements.txt
