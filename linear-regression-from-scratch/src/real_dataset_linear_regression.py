@@ -8,8 +8,8 @@ from sklearn.metrics import mean_squared_error, r2_score;
 
 #load the dataset
 housing = fetch_california_housing();
-
 # convert to dataframe
+
 data = pd.DataFrame(housing.data, columns=housing.feature_names);
 data['price'] = housing.target;
 
