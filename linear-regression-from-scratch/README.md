@@ -12,9 +12,11 @@ The goal is to understand how ML algorithms work internally and how they are app
 This project includes multiple stages of Linear Regression learning:
 
 ### 1. Linear Regression From Scratch
+
 Implemented Linear Regression manually using Python and NumPy.
 
 Concepts covered:
+
 - Weight and bias
 - Gradient Descent
 - Mean Squared Error
@@ -22,11 +24,20 @@ Concepts covered:
 - Loss Curve
 
 ### 2. Linear Regression using Scikit-learn
+
 - Implemented the same model using Scikit-learn to understand how ML libraries simplify model training.
 - Used the California Housing dataset to understand how real-world data behaves.
 
 ### 4. Multiple Linear Regression
+
 Improved the model by using all available features instead of only one feature.
+
+### 5 - Logistic Regression
+
+- Implemented Logistic Regression from sklearn
+- Applied preprocessing and feature scaling
+- Evaluated using confusion matrix and ROC curve
+- Visualized feature importance
 
 ---
 
@@ -42,6 +53,9 @@ Improved the model by using all available features instead of only one feature.
 - Feature Importance
 - Model Evaluation
 - Real-world noisy data behavior
+- confusion matrix
+- ROC_Curve
+- Classification prediction(Prrobability Basis)
 
 ---
 
@@ -66,3 +80,4 @@ linear-regression-from-scratch/
 │
 ├── README.md
 └── requirements.txt
+```
