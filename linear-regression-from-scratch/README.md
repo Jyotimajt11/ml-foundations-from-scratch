@@ -1,4 +1,4 @@
-# ML Foundations From Scratch
+# Linear Regression Classification Model
 
 ## 📌 Overview
 
@@ -32,15 +32,6 @@ Concepts covered:
 
 Improved the model by using all available features instead of only one feature.
 
-### 5 - Logistic Regression
-
-- Implemented Logistic Regression from sklearn
-- Applied preprocessing and feature scaling
-- Evaluated using confusion matrix and ROC curve
-- Visualized feature importance
-
----
-
 ## 🧠 Concepts Learned
 
 - Supervised Learning
@@ -58,26 +49,3 @@ Improved the model by using all available features instead of only one feature.
 - Classification prediction(Prrobability Basis)
 
 ---
-
-## 📁 Project Structure
-
-```text
-linear-regression-from-scratch/
-│
-├── data/
-│   └── housing_sample.csv
-│
-├── src/
-│   ├── linear_regression_day1.py
-│   ├── real_dataset_linear_regression.py
-│   └── multiple_linear_regression.py
-│
-├── outputs/
-│   ├── regression_line.png
-│   ├── loss_curve.png
-│   ├── real_dataset_plot.png
-│   └── multiple_regression_plot.png
-│
-├── README.md
-└── requirements.txt
-```

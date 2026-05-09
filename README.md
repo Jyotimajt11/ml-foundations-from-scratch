@@ -1,84 +1,101 @@
-# Linear Regression From Scratch
+# ML Foundations From Scratch
 
-## 📌 Overview
-This project implements Linear Regression from scratch using Python and NumPy without relying on machine learning libraries.
+This repository contains my Machine Learning learning journey from beginner-level models to advanced ML algorithms.
 
-The goal is to understand how models learn using Gradient Descent.
+I am building and pushing one ML model step by step to understand the core concepts, implementation, evaluation, and visualization of each algorithm.
 
----
+## Models Completed
 
-## 🎯 Problem Statement
-Predict house price based on area.
+### 1. Linear Regression
 
----
+Used for predicting continuous numerical values.
 
-## 🧠 Concepts Covered
-- Linear Regression
-- Gradient Descent
-- Mean Squared Error (MSE)
-- Feature Scaling
-- Model Training & Convergence
+Concepts learned:
 
----
+- Regression
+- Best-fit line
+- Slope and intercept
+- Mean Squared Error
+- R2 Score
+- Actual vs Predicted graph
 
-## 📊 Dataset
-A simple synthetic dataset with two columns:
+### 2. Multiple Linear Regression
 
-| Feature | Description |
-|--------|------------|
-| area   | Area of house |
-| price  | Price of house |
+Used for predicting output using multiple input features.
 
----
+Concepts learned:
 
-## ⚙️ Model Formula
+- Multiple input features
+- Feature weights
+- Model coefficients
+- Relationship between multiple variables and target output
 
-y = wx + b
+### 3. Logistic Regression
 
-Where:
-- w → weight (slope)
-- b → bias (intercept)
+Used for classification problems.
 
----
+Concepts learned:
 
-## 🚀 How the Model Learns
+- Binary classification
+- Sigmoid function
+- Accuracy
+- Confusion matrix
+- Precision
+- Recall
+- F1-score
 
-1. Start with random weight & bias
-2. Predict output
-3. Calculate error (loss)
-4. Update weight & bias using gradient descent
-5. Repeat until loss is minimized
+### 4. K-Nearest Neighbors
 
----
+Used for classification based on nearest data points.
 
-## 📉 Results
+Concepts learned:
 
-- Loss decreases rapidly and converges to near zero
-- Model perfectly fits data due to clean linear dataset
-- Strong linear relationship observed between area and price
+- Distance-based learning
+- K value selection
+- Feature scaling
+- Accuracy comparison
+- Classification visualization
 
----
+### 5. Decision Tree
 
-## 📷 Outputs
+Used for classification using tree-based decision rules.
 
-### Regression Line
-![Regression](outputs/regression_line.png)
+Concepts learned:
 
-### Loss Curve
-![Loss](outputs/loss_curve.png)
+- Root node
+- Leaf node
+- Gini impurity
+- Tree depth
+- Feature importance
+- Decision tree visualization
+- Confusion matrix
 
----
+## Repository Structure
 
-## 🛠️ Technologies Used
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-
----
-
-## ▶️ How to Run
-
-```bash
-pip install -r requirements.txt
-py src/linear_regression_day1.py
+```text
+ML-FOUNDATIONS/
+│
+├── Linear_Regression/
+│   ├── src/
+│   ├── outputs/
+│   └── README.md
+│
+├── Logistic_Regression/
+│   ├── src/
+│   ├── outputs/
+│   └── README.md
+│
+├── KNN_Classification/
+│   ├── src/
+│   ├── outputs/
+│   └── README.md
+│
+├── Decision_Tree/
+│   ├── data/
+│   ├── src/
+│   ├── outputs/
+│   └── README.md
+│
+├── README.md
+└── requirements.txt
+```
