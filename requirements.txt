@@ -1,0 +1,12 @@
+# Core numerical and data analysis libraries
+numpy
+pandas
+
+# Data visualization
+matplotlib
+
+# Machine Learning
+scikit-learn
+
+# Gradient Boosting
+xgboost

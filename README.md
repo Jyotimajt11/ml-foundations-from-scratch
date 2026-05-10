@@ -13,11 +13,11 @@ The goal of this repository is to build a strong foundation in machine learning 
 Through this repository, I aim to:
 
 - Understand the mathematical intuition behind each algorithm.
-- Implement models using real-world datasets.
-- Evaluate performance using appropriate metrics.
+- Implement machine learning models using real-world datasets.
+- Evaluate model performance using appropriate metrics.
 - Visualize results using plots and charts.
 - Compare different machine learning algorithms.
-- Build a solid portfolio for internships and job applications.
+- Build a strong portfolio for internships and job applications.
 
 ---
 
@@ -40,11 +40,11 @@ Predicts continuous numerical values.
 
 ### 2. Multiple Linear Regression
 
-Uses multiple features to predict a continuous target.
+Uses multiple input features to predict a continuous target.
 
 **Concepts Learned:**
 
-- Multiple input variables
+- Multiple feature inputs
 - Coefficients and weights
 - Feature contribution analysis
 - Multivariable relationships
@@ -70,7 +70,7 @@ Used for binary classification problems.
 
 ### 4. K-Nearest Neighbors (KNN)
 
-Classifies data points based on nearest neighbors.
+Classifies data points based on the nearest neighbors.
 
 **Concepts Learned:**
 
@@ -84,24 +84,24 @@ Classifies data points based on nearest neighbors.
 
 ### 5. Decision Tree
 
-Builds interpretable tree-based decision rules.
+Creates tree-based decision rules for classification.
 
 **Concepts Learned:**
 
 - Root node
-- Decision node
-- Leaf node
+- Decision nodes
+- Leaf nodes
 - Gini impurity
 - Information gain
 - Tree depth
 - Feature importance
-- Decision tree visualization
+- Tree visualization
 
 ---
 
 ### 6. Random Forest
 
-An ensemble method that combines multiple decision trees for improved accuracy and reduced overfitting.
+An ensemble method that combines multiple decision trees.
 
 **Concepts Learned:**
 
@@ -109,9 +109,28 @@ An ensemble method that combines multiple decision trees for improved accuracy a
 - Bootstrap sampling
 - Random feature selection
 - Majority voting
-- Out-of-bag (OOB) estimation
+- Out-of-Bag (OOB) score
 - Feature importance
 - Confusion matrix analysis
+
+---
+
+### 7. XGBoost
+
+A gradient boosting algorithm that builds trees sequentially to correct previous errors.
+
+**Project:** Customer Churn Prediction
+
+**Concepts Learned:**
+
+- Gradient boosting
+- Learning rate
+- Tree depth
+- Subsampling
+- Column sampling
+- L1 and L2 regularization
+- Feature importance
+- Business interpretation of churn drivers
 
 ---
 
@@ -152,8 +171,14 @@ ML-FOUNDATIONS/
 │   ├── outputs/
 │   └── README.md
 │
-├── README.md
-└── requirements.txt
+├── XGBoost/
+│   ├── data/
+│   ├── src/
+│   ├── outputs/
+│   └── README.md
+│
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -165,7 +190,8 @@ ML-FOUNDATIONS/
 - NumPy
 - Matplotlib
 - Scikit-learn
-- Jupyter Notebook / VS Code
+- XGBoost
+- VS Code
 - Git & GitHub
 
 ---
@@ -216,22 +242,37 @@ cd ml-foundations-from-scratch
 pip install -r requirements.txt
 ```
 
-4. Run any model:
+4. Run any project:
 
 ```bash
 py Random_Forest/src/random_forest_model.py
 ```
 
-Replace the path above with the project you want to run.
+Replace the path above with the model you want to run.
 
 ---
 
-## 📌 Example Projects
+## 📌 Real-World Projects Included
 
+- House Price Prediction
 - Heart Disease Prediction
-- Customer Classification
-- Regression Analysis
-- Feature Importance Visualization
+- Customer Churn Prediction
+- Classification and Regression Analysis
+
+---
+
+## 🎯 Upcoming Models
+
+- Support Vector Machine (SVM)
+- Naive Bayes
+- AdaBoost
+- LightGBM
+- CatBoost
+- Principal Component Analysis (PCA)
+- K-Means Clustering
+- DBSCAN
+- Artificial Neural Networks
+- Convolutional Neural Networks (CNNs)
 
 ---
 
@@ -246,10 +287,10 @@ Replace the path above with the project you want to run.
 
 ## ⭐ Repository Goal
 
-This repository serves as both:
+This repository serves as:
 
-- A personal learning journal.
-- A reference for students learning machine learning.
-- A portfolio showcasing practical ML implementations.
+- A personal machine learning learning journal.
+- A reference for students learning ML from scratch.
+- A practical portfolio for internships and job applications.
 
-If you find this repository helpful, feel free to star it.
+If you find this repository useful, feel free to ⭐ star the repository.
