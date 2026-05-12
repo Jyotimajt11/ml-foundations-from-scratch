@@ -134,6 +134,14 @@ A gradient boosting algorithm that builds trees sequentially to correct previous
 
 ---
 
+### 8. Support Vector Machine
+
+A supervised learning algorithm that finds the best decision boundary by maximizing the margin between classes.
+
+Project completed:
+
+- Handwritten Digit Classification using SVM
+
 ## 📂 Repository Structure
 
 ```text
@@ -175,6 +183,13 @@ ML-FOUNDATIONS/
 │   ├── data/
 │   ├── src/
 │   ├── outputs/
+│   └── README.md
+├── SVM/
+│   ├── src/
+│   │   └── svm_digitclassification_model.py
+│   ├── outputs/
+│   │   ├── sample_digits.png
+│   │   └── confusion_matrix.png
 │   └── README.md
 │
 ├── requirements.txt
