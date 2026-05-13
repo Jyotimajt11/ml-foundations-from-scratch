@@ -1,0 +1,13 @@
+BernoulliNB Spam Classification Report
+=============================================
+
+Accuracy: 0.9794
+
+              precision    recall  f1-score   support
+
+         Ham       0.98      1.00      0.99       966
+        Spam       0.98      0.86      0.92       149
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.93      0.95      1115
+weighted avg       0.98      0.98      0.98      1115

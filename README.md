@@ -142,6 +142,30 @@ Project completed:
 
 - Handwritten Digit Classification using SVM
 
+---
+
+### 9. Naive Bayes
+
+A probabilistic machine learning algorithm based on Bayes' Theorem that assumes all features are conditionally independent given the class label.
+
+**Projects Completed:**
+
+- Breast Cancer Detection using Gaussian Naive Bayes
+- News Classification using Multinomial Naive Bayes
+- SMS Spam Classification using Bernoulli Naive Bayes
+
+**Concepts Learned:**
+
+- Bayes' Theorem
+- Prior, Likelihood, and Posterior Probability
+- Conditional Independence Assumption
+- Laplace Smoothing
+- Text Vectorization using CountVectorizer
+- Binary Feature Representation
+- Gaussian, Multinomial, and Bernoulli Naive Bayes
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -190,6 +214,11 @@ ML-FOUNDATIONS/
 │   ├── outputs/
 │   │   ├── sample_digits.png
 │   │   └── confusion_matrix.png
+│   └── README.md
+├── Naive_Bayes/
+│   ├── GaussianNB__Breast_Cancer/
+│   ├── MultinomialNB_News/
+│   ├── BernoulliNB_Spam/
 │   └── README.md
 │
 ├── requirements.txt

@@ -4,6 +4,7 @@ pandas
 
 # Data visualization
 matplotlib
+seaborn
 
 # Machine Learning
 scikit-learn
