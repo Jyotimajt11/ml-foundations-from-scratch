@@ -166,6 +166,29 @@ A probabilistic machine learning algorithm based on Bayes' Theorem that assumes 
 
 ---
 
+### 10. K-Means Clustering
+
+An unsupervised learning algorithm used to group similar data points into clusters based on feature similarity.
+
+**Project:** Customer Segmentation using Customer Personality Analysis Dataset
+
+**Concepts Learned:**
+
+- Unsupervised Learning
+- Clustering
+- Centroids
+- Euclidean Distance
+- Within-Cluster Sum of Squares (WCSS)
+- Inertia
+- Elbow Method
+- Silhouette Score
+- Principal Component Analysis (PCA)
+- Feature Engineering
+- Customer Segmentation
+- Model Serialization using Joblib
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -215,10 +238,26 @@ ML-FOUNDATIONS/
 │   │   ├── sample_digits.png
 │   │   └── confusion_matrix.png
 │   └── README.md
+
 ├── Naive_Bayes/
 │   ├── GaussianNB__Breast_Cancer/
 │   ├── MultinomialNB_News/
 │   ├── BernoulliNB_Spam/
+│   └── README.md
+
+├── CustomerPersonality_KMEANS/
+│   ├── data/
+│   │   └── marketing_campaign.csv
+│   ├── src/
+│   │   └── customer_segmentation_kmeans_model.py
+│   ├── outputs/
+│   │   ├── elbow_method.png
+│   │   ├── customer_segments.png
+│   │   ├── cluster_summary.csv
+│   │   ├── segmented_customers.csv
+│   │   ├── kmeans_model.pkl
+│   │   ├── scaler.pkl
+│   │   └── pca.pkl
 │   └── README.md
 │
 ├── requirements.txt
@@ -263,6 +302,8 @@ Depending on the model, the following metrics are used:
 - Decision tree diagrams
 - Feature importance charts
 - K-value vs Accuracy plots
+- Elbow Method plots
+- PCA cluster visualizations
 
 ---
 
@@ -271,7 +312,7 @@ Depending on the model, the following metrics are used:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/jyotima-tomar/ml-foundations-from-scratch.git
+git clone https://github.com/jyotimajt11/ml-foundations-from-scratch.git
 ```
 
 2. Navigate to the repository:
@@ -302,21 +343,7 @@ Replace the path above with the model you want to run.
 - Heart Disease Prediction
 - Customer Churn Prediction
 - Classification and Regression Analysis
-
----
-
-## 🎯 Upcoming Models
-
-- Support Vector Machine (SVM)
-- Naive Bayes
-- AdaBoost
-- LightGBM
-- CatBoost
-- Principal Component Analysis (PCA)
-- K-Means Clustering
-- DBSCAN
-- Artificial Neural Networks
-- Convolutional Neural Networks (CNNs)
+- Customer Segmentation
 
 ---
 
@@ -324,8 +351,7 @@ Replace the path above with the model you want to run.
 
 **Jyotima Tomar**
 
-- GitHub: https://github.com/jyotima-tomar
-- LinkedIn: https://www.linkedin.com/in/jyotima-tomar/
+- GitHub: https://github.com/jyotimajt11
 
 ---
 
